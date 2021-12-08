@@ -3,19 +3,19 @@
 
 
     <item android:id="@id/navigation_home"
-        android:icon="@drawable/home"
+        android:icon="@drawable/outline_home_black_48"
         android:title="Home"/>
     <item android:id="@id/navigation_notice"
-        android:icon="@drawable/notification"
+        android:icon="@drawable/outline_speaker_notes_black_48"
         android:title="Notice"/>
     <item android:id="@id/navigation_faculty"
-        android:icon="@drawable/faculty"
+        android:icon="@drawable/outline_groups_black_48"
         android:title="Faculty"/>
     <item android:id="@id/navigation_gallery"
-        android:icon="@drawable/gallery"
+        android:icon="@drawable/outline_collections_black_48"
         android:title="Gallery"/>
     <item android:id="@id/navigation_about"
-        android:icon="@drawable/about"
+        android:icon="@drawable/outline_contact_support_black_48"
         android:title="About"/>
 
 </menu>
