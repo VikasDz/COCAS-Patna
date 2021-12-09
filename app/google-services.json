@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "633489553234",
+    "firebase_url": "https://cocas-f637c-default-rtdb.firebaseio.com",
+    "project_id": "cocas-f637c",
+    "storage_bucket": "cocas-f637c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633489553234:android:0ebb6b03930579e0476c8b",
+        "android_client_info": {
+          "package_name": "com.t.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633489553234-au00vf9nmkomvben2bl157mgur1sjt9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC--FoUT7Wi64Qg1A0ODP-LNcVIF5r_y4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633489553234-au00vf9nmkomvben2bl157mgur1sjt9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633489553234:android:ee416f2daa89527f476c8b",
+        "android_client_info": {
+          "package_name": "com.t.cocaspatna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633489553234-au00vf9nmkomvben2bl157mgur1sjt9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC--FoUT7Wi64Qg1A0ODP-LNcVIF5r_y4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633489553234-au00vf9nmkomvben2bl157mgur1sjt9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
