@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/text_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:paddingLeft="12dp"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teachersName"
+                    android:text="JarVis"
+                    android:textColor="@color/titleColor"
+                    android:fontFamily="@string/regular"
+                    android:textSize="@dimen/title_size">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teachersPost"
+                    android:text="Hello"
+                    android:textColor="@color/titleColor"
+                    android:fontFamily="@string/regular"
+                    android:textSize="@dimen/title_size">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teachersEmail"
+                    android:text="World@gmail.com"
+                    android:textColor="@color/titleColor"
+                    android:fontFamily="@string/regular"
+                    android:textSize="@dimen/text_size">
+                </TextView>
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/teachersImage"
+                android:layout_marginVertical="@dimen/text_margin"
+                android:src="@drawable/man"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
