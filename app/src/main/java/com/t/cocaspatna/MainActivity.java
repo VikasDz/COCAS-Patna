@@ -62,25 +62,28 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
-            case R.id.navigation_developer:
+            case R.id.navigation_video:
                 Toast.makeText(this, "Developer", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.navigation_video:
+            case R.id.navigation_ebooks:
                 Toast.makeText(this, "Video", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.navigation_ebook:
+            case R.id.navigation_Theme:
                 Toast.makeText(this, "Ebook", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.navigation_theme:
+            case R.id.navigation_share:
                 Toast.makeText(this, "Theme", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.navigation_website:
+            case R.id.navigation_rateus:
                 Toast.makeText(this, "Website", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.navigation_share:
+            case R.id.nav_facebook:
                 Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.navigation_rate:
+            case R.id.nav_instagram:
+                Toast.makeText(this, "Rate", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.nav_www:
                 Toast.makeText(this, "Rate", Toast.LENGTH_SHORT).show();
                 break;
         }

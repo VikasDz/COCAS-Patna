@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
 
-    <item android:id="@+id/navigation_video"
-        android:title="Video Lectures"
-        android:icon="@drawable/home"/>
-    <item android:id="@+id/navigation_ebook"
-        android:title="Ebooks"
-        android:icon="@drawable/clg_icon"/>
-    <item android:id="@+id/navigation_theme"
-        android:title="Theme"
-        android:icon="@drawable/clg_icon"/>
-    <item android:id="@+id/navigation_website"
-        android:title="Website"
-        android:icon="@drawable/home"/>
-    <item android:id="@+id/navigation_share"
-        android:title="Share"
-        android:icon="@drawable/home"/>
-    <item android:id="@+id/navigation_rate"
-        android:title="Rate Us"
-        android:icon="@drawable/home"/>
-    <item android:id="@+id/navigation_developer"
-        android:title="Developers"
-        android:icon="@drawable/home"/>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_video"
+            android:icon="@drawable/ic_baseline_ondemand_video_24"
+            android:title="Video Lectures" />
+
+        <item
+            android:id="@+id/navigation_ebooks"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+            android:title="Your Ebooks" />
+        <item
+            android:id="@+id/navigation_Theme"
+            android:icon="@drawable/theme"
+            android:title="Theme" />
+        <item
+            android:id="@+id/navigation_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share" />
+        <item
+            android:id="@+id/navigation_rateus"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            android:title="Rate Us" />
+    </group>
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/faceboo"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/instagram"
+                android:title="Instagram"/>
+            <item
+                android:id="@+id/nav_www"
+                android:icon="@drawable/www"
+                android:title="Website"/>
+        </menu>
+    </item>
+
 </menu>

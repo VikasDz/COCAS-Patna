@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/courseIcon"
+            android:layout_width="34dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:src="@drawable/ic_lable">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/coursetitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/latobold"
+            android:text="Ours Courses"
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/title_size" />
+
+    </LinearLayout>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_clg"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/latolight"/>
+</LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -42,9 +42,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Well Education"
+                android:textColor="@color/titleColor"
+                android:fontFamily="@font/latolight"
                 android:layout_marginLeft= "@dimen/text_margin"/>
 
         </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/latobold"
+            android:text="Ours Courses"
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/title_size" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="@dimen/text_margin"
+            android:foregroundGravity="center"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:id="@+id/ViewPager"/>
     </LinearLayout>
 
 

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COCASPatna">
         <activity
+            android:name=".ebooks.EbookActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

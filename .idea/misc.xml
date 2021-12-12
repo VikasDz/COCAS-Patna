@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.25076923076923074" />
+        <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.25076923076923074" />
         <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/layout/activity_main.xml" value="0.176" />
-        <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/layout/drawer_header.xml" value="0.10727969348659004" />
-        <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/layout/fragment_about.xml" value="0.225" />
+        <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/layout/course_item_layout.xml" value="0.264" />
+        <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/layout/drawer_header.xml" value="0.2" />
+        <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/layout/ebook_item_layout.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/layout/fragment_about.xml" value="0.2" />
         <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/layout/fragment_faculty.xml" value="0.225" />
         <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/layout/fragment_gallery.xml" value="0.264" />
         <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/layout/fragment_home.xml" value="0.23586744639376217" />
@@ -16,7 +20,7 @@
         <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/layout/teachers_item_layout.xml" value="0.2" />
         <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/menu/bottom_nav.xml" value="0.2" />
         <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/menu/menu.xml" value="0.24166666666666667" />
-        <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/menu/navigation_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/hp/Desktop/iNotes Upgraded Version/COCAS Patna/app/src/main/res/menu/navigation_drawer.xml" value="0.2" />
       </map>
     </option>
   </component>

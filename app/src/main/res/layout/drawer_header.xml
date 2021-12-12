@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="176dp"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:background="#9BF4EA"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
 
     <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        android:contentDescription="Nav Header"
+        android:paddingTop="8dp"
+        app:srcCompat="@drawable/banner" />
+
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/banner"
-        android:scaleType="fitCenter"/>
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="C.O.C.A.S Patna"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#090808"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
-
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Number"
+        android:textColor="#F4F3F3"
+        android:textColorHighlight="#F3F3F3"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
