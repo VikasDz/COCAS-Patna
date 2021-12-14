@@ -40,11 +40,11 @@ public class TeacherAdapter extends RecyclerView.Adapter<TeacherAdapter.TeacherV
     public void onBindViewHolder(@NonNull TeacherViewAdapter holder, int position)  {
 
         com.t.cocaspatna.ui.faculty.TeacherData item = list.get(position);
-        holder.name.setText(item.getName());
-        holder.post.setText(item.getPost());
-        holder.email.setText(item.getEmail());
+        holder.name.setText(item.getTeacherName());
+        holder.post.setText(item.getTeacherpost());
+        holder.email.setText(item.getTeacheremail());
         try {
-            Glide.with(context).load(item.getImage()).into(holder.imageView);
+            Glide.with(context).load(item.getTeacherimage()).into(holder.imageView);
         } catch (Exception e) {
             e.printStackTrace();
         }

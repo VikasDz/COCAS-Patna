@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COCASPatna">
         <activity
+            android:name=".FullImageView"
+            android:exported="false" />
+        <activity
+            android:name=".ebooks.PdfViewer"
+            android:exported="false" />
+        <activity
             android:name=".ebooks.EbookActivity"
             android:exported="false" />
         <activity

@@ -1,46 +1,47 @@
 package com.t.cocaspatna.ui.faculty;
 
 public class TeacherData {
-    private String name, email, post , image, key;
+    private String TeacherName, Teacheremail, Teacherpost , Teacherimage, key;
 
-    public TeacherData(String name, String email, String post, String image, String key) {
-        this.name = name;
-        this.email = email;
-        this.post = post;
-        this.image = image;
+
+    public TeacherData(String teacherName, String teacheremail, String teacherpost, String teacherimage, String key) {
+        TeacherName = teacherName;
+        Teacheremail = teacheremail;
+        Teacherpost = teacherpost;
+        Teacherimage = teacherimage;
         this.key = key;
     }
 
-    public String getName() {
-        return name;
+    public String getTeacherName() {
+        return TeacherName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTeacherName(String teacherName) {
+        TeacherName = teacherName;
     }
 
-    public String getEmail() {
-        return email;
+    public String getTeacheremail() {
+        return Teacheremail;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setTeacheremail(String teacheremail) {
+        Teacheremail = teacheremail;
     }
 
-    public String getPost() {
-        return post;
+    public String getTeacherpost() {
+        return Teacherpost;
     }
 
-    public void setPost(String post) {
-        this.post = post;
+    public void setTeacherpost(String teacherpost) {
+        Teacherpost = teacherpost;
     }
 
-    public String getImage() {
-        return image;
+    public String getTeacherimage() {
+        return Teacherimage;
     }
 
-    public void setImage(String image) {
-        this.image = image;
+    public void setTeacherimage(String teacherimage) {
+        Teacherimage = teacherimage;
     }
 
     public String getKey() {
