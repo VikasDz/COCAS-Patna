@@ -17,6 +17,7 @@
             android:exported="false" />
         <activity
             android:name=".ebooks.EbookActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

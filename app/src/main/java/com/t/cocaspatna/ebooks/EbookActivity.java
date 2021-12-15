@@ -6,8 +6,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.facebook.shimmer.Shimmer;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -24,14 +28,20 @@ public class EbookActivity extends AppCompatActivity {
     private DatabaseReference reference;
     private List<EbookData> list;
     private EbookAdapter adapter;
+     ShimmerFrameLayout shimmer_view_container;
+     LinearLayout shimmerLayout;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ebook);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Ebooks");
 
         ebookRecycle = findViewById(R.id.ebookRecycle);
+        shimmer_view_container = findViewById(R.id.shimmer_view_container);
+        shimmerLayout = findViewById(R.id.shimmerLayout);
         reference = FirebaseDatabase.getInstance().getReference().child("pdf");
         
         
@@ -52,6 +62,9 @@ public class EbookActivity extends AppCompatActivity {
                 adapter =  new EbookAdapter(EbookActivity.this,list);
                 ebookRecycle.setLayoutManager(new LinearLayoutManager(EbookActivity.this));
                 ebookRecycle.setAdapter(adapter);
+                shimmer_view_container.stopShimmer();
+                shimmerLayout.setVisibility(View.GONE);
+
                 
             }
 
@@ -61,5 +74,19 @@ public class EbookActivity extends AppCompatActivity {
                 Toast.makeText(EbookActivity.this, error.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
+
+
+    }
+
+    @Override
+    protected void onPause() {
+        shimmer_view_container.stopShimmer();
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        shimmer_view_container.startShimmer();
+        super.onResume();
     }
 }

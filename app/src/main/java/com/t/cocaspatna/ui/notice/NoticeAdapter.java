@@ -2,6 +2,7 @@ package com.t.cocaspatna.ui.notice;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
+import com.t.cocaspatna.FullImageView;
 import com.t.cocaspatna.R;
 
 
@@ -49,6 +51,15 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        holder.deleteNoticeImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, FullImageView.class);
+                intent.putExtra("image",currentItem.getImage());
+                context.startActivity(intent);
+            }
+        });
 
     }
 

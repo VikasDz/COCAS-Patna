@@ -60,7 +60,7 @@ public class NoticeFragment extends Fragment {
                 list = new ArrayList<>();
                 for (DataSnapshot Snapshot : snapshot.getChildren()){
                     NoticeData data = Snapshot.getValue(NoticeData.class);
-                    list.add(data);
+                    list.add(0,data);
                 }
 
                 adapter = new NoticeAdapter(getContext(),list);
