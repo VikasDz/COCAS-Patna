@@ -1,7 +1,6 @@
 # COCAS Patna
 
-COCAS Patna is An  Android App For User Who Study In COCAS Patna College. In This App User Have Permission To See Notice, Know About College &amp; Gallery Of College &amp; There Teachers.
-
+Cocas patna is an android app for user who study in cocas patna college.In this app user have permission to see notice, know about college & gallery of college & there teachers. We also have admin plane for manage notice section of our app & we perform CURD operation
 <h1>ScreenShots</h1>
 
 Home  Section              |  Notice Section
